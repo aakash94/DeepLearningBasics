@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # Reading the csv file into a pandas DataFrame
 data = pd.read_csv('student_data.csv')
 
+
 # Function to help us plot
 def plot_points(data):
     X = np.array(data[["gre", "gpa"]])
@@ -63,13 +64,19 @@ targets = train_data['admit']
 features_test = test_data.drop('admit', axis=1)
 targets_test = test_data['admit']
 
+
 # Activation (sigmoid) function
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
+
+
 def sigmoid_prime(x):
     return sigmoid(x) * (1-sigmoid(x))
+
+
 def error_formula(y, output):
     return - y*np.log(output) - (1 - y) * np.log(1-output)
+
 
 # (𝑦−𝑦̂ )𝜎′(𝑥)
 def error_term_formula(x, y, output):
