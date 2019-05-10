@@ -2,3 +2,16 @@
 .idea/DeepLearningBasics.iml
 .idea/modules.xml
 .idea/workspace.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/other.xml
+.idea/vcs.xml
+3IntroPyTorch/.ipynb_checkpoints/3_TrainingNN-checkpoint.py
+3IntroPyTorch/.ipynb_checkpoints/4_FashionMNIST-checkpoint.py
+3IntroPyTorch/__pycache__/helper.cpython-36.pyc
+4ConvolutionalNeuralNetwork/data/MNIST/processed/test.pt
+4ConvolutionalNeuralNetwork/data/MNIST/processed/training.pt
+4ConvolutionalNeuralNetwork/data/MNIST/raw/t10k-images-idx3-ubyte
+4ConvolutionalNeuralNetwork/data/MNIST/raw/t10k-labels-idx1-ubyte
+4ConvolutionalNeuralNetwork/data/MNIST/raw/train-images-idx3-ubyte
+4ConvolutionalNeuralNetwork/data/MNIST/raw/train-labels-idx1-ubyte
